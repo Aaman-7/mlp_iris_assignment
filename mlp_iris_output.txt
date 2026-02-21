@@ -1,0 +1,35 @@
+Iris dataset loaded successfully.
+Number of samples: 150
+Number of features: 4
+Target classes: ['setosa' 'versicolor' 'virginica']
+
+Data preprocessing complete.
+Training set size: 105
+Test set size: 45
+
+Training the MLPClassifier...
+MLPClassifier training complete.
+
+Making predictions on the test set...
+
+Model Evaluation:
+Accuracy: 1.0000
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00        19
+  versicolor       1.00      1.00      1.00        13
+   virginica       1.00      1.00      1.00        13
+
+    accuracy                           1.00        45
+   macro avg       1.00      1.00      1.00        45
+weighted avg       1.00      1.00      1.00        45
+
+
+Discussion points for further analysis or improvements:
+- Hyperparameter tuning (e.g., hidden_layer_sizes, activation, solver, alpha, learning_rate)
+- Cross-validation to get a more robust estimate of model performance.
+- Investigating misclassified samples.
+- Feature importance analysis (though less straightforward for MLPs).
+- Early stopping to prevent overfitting.
