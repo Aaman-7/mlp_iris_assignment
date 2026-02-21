@@ -1,4 +1,5 @@
-Project Description
+**Project Description**
+
 The current research applies a Multilayer Perceptron model to carry out a multi-class classification task on the Iris dataset.
 
 **Objective**
