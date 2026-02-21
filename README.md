@@ -1,12 +1,12 @@
-##**Project Description**
+## **Project Description**
 
 The current research applies a Multilayer Perceptron model to carry out a multi-class classification task on the Iris dataset.
 
-##**Objective**
+## **Objective**
 
 The aim is to develop a model for a neural network that is able to classify iris flower types.
 
-##Dataset Used
+## Dataset Used
 
 The dataset is characterized by:
 - Number of samples: 150
