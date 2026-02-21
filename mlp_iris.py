@@ -38,7 +38,7 @@ print(f"Test set size: {X_test_scaled.shape[0]}")
 
 # 3. Initialize and Train the MLPClassifier
 # Define the MLP model
-# hidden_layer_sizes: tuple, i-th element represents the number of neurons in the i-th hidden layer.
+# 1 hidden layer with 100 neurons
 # max_iter: Maximum number of iterations for the solver to converge.
 # alpha: L2 penalty parameter.
 # solver: The solver for weight optimization. adam
@@ -66,4 +66,5 @@ print("- Hyperparameter tuning (e.g., hidden_layer_sizes, activation, solver, al
 print("- Cross-validation to get a more robust estimate of model performance.")
 print("- Investigating misclassified samples.")
 print("- Feature importance analysis (though less straightforward for MLPs).")
+
 print("- Early stopping to prevent overfitting.")
