@@ -17,11 +17,11 @@ The dataset is characterized by:
   - Versicolor
   - Virginica
 
-Model Used
+## Model Used
 
 The model utilized is MLPClassifier, a part of the scikit-learn library.
 
-Model Specifications
+## Model Specifications
 
 The model is characterized by:
 - Number of hidden layers: 1
@@ -32,7 +32,7 @@ The model is characterized by:
 - Regularization term (alpha): 1e-4
 - Train/Test Split: 70/30
 
-Data Preprocessing
+## Data Preprocessing
 
 The steps taken for data preprocessing include:
 
@@ -40,12 +40,12 @@ The steps taken for data preprocessing include:
 - Train/Test Split
 - Scaling data using StandardScaler
 
-Rationale for Scalin
+## Rationale for Scalin
 
 Feature scaling is applied to the dataset as it is known that the performance of a neural network is superior with standardized data.
 
 
-How to Run the Project
+## How to Run the Project
 
 1. Install required libraries:
    pip install scikit-learn pandas numpy
@@ -56,3 +56,10 @@ How to Run the Project
 **Results Obtained**
 
 The accuracy is 1.0000, or 100%. According to the classification report, precision, recall, and F1-score for all three classes are perfect.
+
+
+## Repository Structure
+
+mlp_iris.py → Main implementation file
+
+mlp_iris_output.txt → Execution output and evaluation results
